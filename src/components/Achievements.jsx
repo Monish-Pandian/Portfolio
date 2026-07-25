@@ -13,19 +13,19 @@ const certifications = [
     issuer: "Coursera",
     title: "Machine Learning Specialization",
     year: "2026",
-    file: "Portfolio/public/certificates/Coursera 6BJ7K4S28RGA.pdf",
+    file: "public/certificates/Coursera 6BJ7K4S28RGA.pdf",
   },
   {
     issuer: "NPTEL",
     title: "Python for Data Science",
     year: "2023",
-    file: "Portfolio/public/certificates/Python For Data Science.pdf",
+    file: "/public/certificates/Python For Data Science.pdf",
   },
   {
     issuer: "NPTEL",
     title: "Responsible AI",
     year: "2025",
-    file: "Portfolio/public/certificates/Responsible & Safe AI Systems.pdf",
+    file: "/public/certificates/Responsible & Safe AI Systems.pdf",
   },
 ];
 
