@@ -1,0 +1,35 @@
+.about{
+    background:#0f172a;
+    color:white;
+}
+
+
+
+.about-card{
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+    height:100%;
+}
+
+.about-card:hover{
+
+    transform:translateY(-10px);
+
+    background:#26364d;
+
+}
+
+.about-card h2{
+
+    color:#0dcaf0;
+
+    font-weight:bold;
+
+}

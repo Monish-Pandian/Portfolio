@@ -1,0 +1,48 @@
+.custom-navbar{
+    background:rgba(17,24,39,0.95);
+    backdrop-filter:blur(10px);
+    transition:0.3s;
+}
+
+.navbar-brand{
+    letter-spacing:1px;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:18px;
+    font-weight:500;
+    position:relative;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#0dcaf0 !important;
+}
+
+.nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0%;
+    height:2px;
+    background:#0dcaf0;
+    transition:.3s;
+}
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+.btn-info{
+    font-weight:600;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}

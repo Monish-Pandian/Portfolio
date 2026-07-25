@@ -1,0 +1,86 @@
+.achievements{
+    background:#111827;
+    color:white;
+    padding:100px 0;
+}
+
+.section-title{
+    color:#0dcaf0;
+    font-weight:bold;
+}
+
+.achievement-card{
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    border-left:5px solid #0dcaf0;
+
+    transition:.3s;
+
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.achievement-card p{
+
+    color:#cbd5e1;
+
+    margin-top:10px;
+
+}
+
+.certificate-card{
+
+    background:#1e293b;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    height:100%;
+
+    transition:.3s;
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+}
+
+.certificate-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.certificate-top h5{
+
+    color:#0dcaf0;
+
+    margin:0;
+
+}
+
+.certificate-top span{
+
+    color:#94a3b8;
+
+}
