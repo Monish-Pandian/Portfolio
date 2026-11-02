@@ -1,18 +1,97 @@
-# React + Vite
+# Carrom Portfolio 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive 3D Carrom board portfolio website built with **React**, **Three.js** (`@react-three/fiber`), and **Matter.js**.
 
-Currently, two official plugins are available:
+Personal portfolio of **Monish Pandian D** — IT Student, Full-Stack Developer, and AI/ML Enthusiast.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Highlights & Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **3D Board Experience**: Rendered using Three.js and `@react-three/fiber` for an immersive interactive experience.
+- **2D Physics Engine**: Fast and accurate collision physics powered by `Matter.js` handling striker placement, aiming lines, flicking power, cushion bouncing, and pocketing.
+- **Interactive Portfolio Content**:
+  - **Projects**: Showcase of full-stack and machine learning applications.
+  - **Certifications**: Verified credentials (e.g., Oracle Agentic AI Associate, DeepLearning.AI Supervised Machine Learning).
+  - **Skills**: Categorized technical stacks (Languages, Frontend, Backend, Tools, CS Fundamentals).
+  - **Experience & Education**: Academic background, hackathons, and competitive programming achievements.
+- **Accessible Dual View**: Easily toggle between the interactive 3D carrom game and a clean, responsive **List View** for standard reading.
+- **Responsive Design**: Polished UI with custom styles, responsive layouts, and modal overlays.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
 
-<!-- phase17: controlled acceptance test 2026-10-17T16:24:18.752688+00:00 -->
+- **Frontend**: React 18, Vite
+- **3D Graphics**: Three.js, `@react-three/fiber`
+- **Physics**: Matter.js
+- **Styling**: Bootstrap 5, Custom CSS
+- **Testing**: Node.js physics test suite (`scripts/test-physics.mjs`)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Monish-Pandian/Portfolio.git
+   cd Portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+4. Run the physics tests:
+   ```bash
+   npm run test:physics
+   ```
+
+5. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+├── public/
+│   └── media/            # Certificate images and media assets
+├── scripts/
+│   └── test-physics.mjs  # Physics engine test suite
+├── src/
+│   ├── components/       # UI overlays, navigation, and list view
+│   ├── data/             # Portfolio content and profile configuration
+│   ├── physics/          # Matter.js carrom physics implementation
+│   ├── three/            # Three.js board scene, shaders, and textures
+│   ├── App.jsx           # Root application component
+│   ├── main.jsx          # Vite entrypoint
+│   └── styles.css        # Core styling
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
